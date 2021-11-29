@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script language="javascript" type="text/javascript"
+            src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Centro Médico Galenos</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <img src="./img/icons/logo_empresa_smaller.png" alt="logo_empresa">
+            </div>
+            <div class="navegacion">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./preguntas_frecuentes.html">Preguntas frecuentes Covid-19</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactanos.html">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./iniciar_sesion.html">Iniciar sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- Carrusel de imágenes de los productos con más marketing  -->
+        <section class="carrusel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <a href="">
+                            <img class="d-block w-100 carrusel-img" src="./img/carrusel_1.jpg"
+                                data-src="holder.js/900x400?theme=social" alt="carrusel_1">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img class="d-block w-100 carrusel-img" src="./img/carrusel_2.jpg"
+                                data-src="holder.js/900x400?theme=industrial" alt="carrusel_2">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img class="d-block w-100 carrusel-img" src="./img/carrusel_3.jpg"
+                                data-src="holder.js/900x400?theme=industrial" alt="carrusel_3">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img class="d-block w-100 carrusel-img" src="./img/carrusel_4.jpg"
+                                data-src="holder.js/900x400?theme=industrial" alt="carrusel_4">
+                        </a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </section>
+
+            
+            
+        <!-- En el cuerpo pondremos diferentes juegos en distintos paneles para la página principal -->
+        <div class="cuerpo">
+            <div class="header_cuerpo">
+                <br>
+                <br>
+                <br>
+                <h2>Agenda tu hora</h2>
+            </div>
+            <div class="aside-wrap">
+                <aside class="aside_hora">
+                    <div class="form-check">
+                        <button type="submit" class="btn btn-primary">Reservar hora</button>
+                    </div>
+                </aside>
+                <aside class="aside_hora">
+                    <div class="form-check">
+                        <button type="submit" class="btn btn-primary">Modificar hora</button>
+                    </div>
+                </aside>                
+                <aside class="aside_hora">
+                    <div class="form-check">
+                        <button type="submit" class="btn btn-primary">Cancelar hora</button>
+                    </div>
+
+            </div>
+        </div>
+        <!-- En el footer pondremos las rrss y la marca de la empresa  -->
+        <footer class="footer">
+            <div class="footer_content">
+                <div class="redes">
+                    <ul class="menu_wrap">
+                        <li>
+                            <a href="">
+                                <img src="./img/icons/instagram_logo.png" alt="instagram" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/icons/twitter_logo.png" alt="twitter" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_text">
+                    <p>© 2021-2022 - Centro Médico Galenos S.A. - Todos los derechos reservados - Ubicado en Paseo Ahumada
+                        #666</p>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
